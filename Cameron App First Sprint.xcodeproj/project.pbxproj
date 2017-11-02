@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCC995F11FAB56AE0000B18C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC995F01FAB56AE0000B18C /* AppDelegate.swift */; };
+		BCC995F31FAB56AE0000B18C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC995F21FAB56AE0000B18C /* ViewController.swift */; };
+		BCC995F61FAB56AE0000B18C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC995F41FAB56AE0000B18C /* Main.storyboard */; };
+		BCC995F81FAB56AE0000B18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC995F71FAB56AE0000B18C /* Assets.xcassets */; };
+		BCC995FB1FAB56AE0000B18C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC995F91FAB56AE0000B18C /* LaunchScreen.storyboard */; };
+		BCC996061FAB56AE0000B18C /* Cameron_App_First_SprintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC996051FAB56AE0000B18C /* Cameron_App_First_SprintTests.swift */; };
+		BCC996111FAB56AE0000B18C /* Cameron_App_First_SprintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC996101FAB56AE0000B18C /* Cameron_App_First_SprintUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCC996021FAB56AE0000B18C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCC995E51FAB56AE0000B18C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCC995EC1FAB56AE0000B18C;
+			remoteInfo = "Cameron App First Sprint";
+		};
+		BCC9960D1FAB56AE0000B18C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCC995E51FAB56AE0000B18C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCC995EC1FAB56AE0000B18C;
+			remoteInfo = "Cameron App First Sprint";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCC995ED1FAB56AE0000B18C /* Cameron App First Sprint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cameron App First Sprint.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC995F01FAB56AE0000B18C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCC995F21FAB56AE0000B18C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCC995F51FAB56AE0000B18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCC995F71FAB56AE0000B18C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCC995FA1FAB56AE0000B18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCC995FC1FAB56AE0000B18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC996011FAB56AE0000B18C /* Cameron App First SprintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cameron App First SprintTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC996051FAB56AE0000B18C /* Cameron_App_First_SprintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cameron_App_First_SprintTests.swift; sourceTree = "<group>"; };
+		BCC996071FAB56AE0000B18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC9960C1FAB56AE0000B18C /* Cameron App First SprintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cameron App First SprintUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC996101FAB56AE0000B18C /* Cameron_App_First_SprintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cameron_App_First_SprintUITests.swift; sourceTree = "<group>"; };
+		BCC996121FAB56AE0000B18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCC995EA1FAB56AE0000B18C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC995FE1FAB56AE0000B18C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC996091FAB56AE0000B18C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCC995E41FAB56AE0000B18C = {
+			isa = PBXGroup;
+			children = (
+				BCC995EF1FAB56AE0000B18C /* Cameron App First Sprint */,
+				BCC996041FAB56AE0000B18C /* Cameron App First SprintTests */,
+				BCC9960F1FAB56AE0000B18C /* Cameron App First SprintUITests */,
+				BCC995EE1FAB56AE0000B18C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCC995EE1FAB56AE0000B18C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCC995ED1FAB56AE0000B18C /* Cameron App First Sprint.app */,
+				BCC996011FAB56AE0000B18C /* Cameron App First SprintTests.xctest */,
+				BCC9960C1FAB56AE0000B18C /* Cameron App First SprintUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCC995EF1FAB56AE0000B18C /* Cameron App First Sprint */ = {
+			isa = PBXGroup;
+			children = (
+				BCC995F01FAB56AE0000B18C /* AppDelegate.swift */,
+				BCC995F21FAB56AE0000B18C /* ViewController.swift */,
+				BCC995F41FAB56AE0000B18C /* Main.storyboard */,
+				BCC995F71FAB56AE0000B18C /* Assets.xcassets */,
+				BCC995F91FAB56AE0000B18C /* LaunchScreen.storyboard */,
+				BCC995FC1FAB56AE0000B18C /* Info.plist */,
+			);
+			path = "Cameron App First Sprint";
+			sourceTree = "<group>";
+		};
+		BCC996041FAB56AE0000B18C /* Cameron App First SprintTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCC996051FAB56AE0000B18C /* Cameron_App_First_SprintTests.swift */,
+				BCC996071FAB56AE0000B18C /* Info.plist */,
+			);
+			path = "Cameron App First SprintTests";
+			sourceTree = "<group>";
+		};
+		BCC9960F1FAB56AE0000B18C /* Cameron App First SprintUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCC996101FAB56AE0000B18C /* Cameron_App_First_SprintUITests.swift */,
+				BCC996121FAB56AE0000B18C /* Info.plist */,
+			);
+			path = "Cameron App First SprintUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCC995EC1FAB56AE0000B18C /* Cameron App First Sprint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC996151FAB56AE0000B18C /* Build configuration list for PBXNativeTarget "Cameron App First Sprint" */;
+			buildPhases = (
+				BCC995E91FAB56AE0000B18C /* Sources */,
+				BCC995EA1FAB56AE0000B18C /* Frameworks */,
+				BCC995EB1FAB56AE0000B18C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cameron App First Sprint";
+			productName = "Cameron App First Sprint";
+			productReference = BCC995ED1FAB56AE0000B18C /* Cameron App First Sprint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCC996001FAB56AE0000B18C /* Cameron App First SprintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC996181FAB56AE0000B18C /* Build configuration list for PBXNativeTarget "Cameron App First SprintTests" */;
+			buildPhases = (
+				BCC995FD1FAB56AE0000B18C /* Sources */,
+				BCC995FE1FAB56AE0000B18C /* Frameworks */,
+				BCC995FF1FAB56AE0000B18C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCC996031FAB56AE0000B18C /* PBXTargetDependency */,
+			);
+			name = "Cameron App First SprintTests";
+			productName = "Cameron App First SprintTests";
+			productReference = BCC996011FAB56AE0000B18C /* Cameron App First SprintTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCC9960B1FAB56AE0000B18C /* Cameron App First SprintUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC9961B1FAB56AE0000B18C /* Build configuration list for PBXNativeTarget "Cameron App First SprintUITests" */;
+			buildPhases = (
+				BCC996081FAB56AE0000B18C /* Sources */,
+				BCC996091FAB56AE0000B18C /* Frameworks */,
+				BCC9960A1FAB56AE0000B18C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCC9960E1FAB56AE0000B18C /* PBXTargetDependency */,
+			);
+			name = "Cameron App First SprintUITests";
+			productName = "Cameron App First SprintUITests";
+			productReference = BCC9960C1FAB56AE0000B18C /* Cameron App First SprintUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCC995E51FAB56AE0000B18C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "CS Student";
+				TargetAttributes = {
+					BCC995EC1FAB56AE0000B18C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					BCC996001FAB56AE0000B18C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCC995EC1FAB56AE0000B18C;
+					};
+					BCC9960B1FAB56AE0000B18C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCC995EC1FAB56AE0000B18C;
+					};
+				};
+			};
+			buildConfigurationList = BCC995E81FAB56AE0000B18C /* Build configuration list for PBXProject "Cameron App First Sprint" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCC995E41FAB56AE0000B18C;
+			productRefGroup = BCC995EE1FAB56AE0000B18C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCC995EC1FAB56AE0000B18C /* Cameron App First Sprint */,
+				BCC996001FAB56AE0000B18C /* Cameron App First SprintTests */,
+				BCC9960B1FAB56AE0000B18C /* Cameron App First SprintUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCC995EB1FAB56AE0000B18C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC995FB1FAB56AE0000B18C /* LaunchScreen.storyboard in Resources */,
+				BCC995F81FAB56AE0000B18C /* Assets.xcassets in Resources */,
+				BCC995F61FAB56AE0000B18C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC995FF1FAB56AE0000B18C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC9960A1FAB56AE0000B18C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCC995E91FAB56AE0000B18C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC995F31FAB56AE0000B18C /* ViewController.swift in Sources */,
+				BCC995F11FAB56AE0000B18C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC995FD1FAB56AE0000B18C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC996061FAB56AE0000B18C /* Cameron_App_First_SprintTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC996081FAB56AE0000B18C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC996111FAB56AE0000B18C /* Cameron_App_First_SprintUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCC996031FAB56AE0000B18C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCC995EC1FAB56AE0000B18C /* Cameron App First Sprint */;
+			targetProxy = BCC996021FAB56AE0000B18C /* PBXContainerItemProxy */;
+		};
+		BCC9960E1FAB56AE0000B18C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCC995EC1FAB56AE0000B18C /* Cameron App First Sprint */;
+			targetProxy = BCC9960D1FAB56AE0000B18C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCC995F41FAB56AE0000B18C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC995F51FAB56AE0000B18C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCC995F91FAB56AE0000B18C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC995FA1FAB56AE0000B18C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCC996131FAB56AE0000B18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCC996141FAB56AE0000B18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCC996161FAB56AE0000B18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cameron App First Sprint/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHCI.Cameron-App-First-Sprint";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCC996171FAB56AE0000B18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cameron App First Sprint/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHCI.Cameron-App-First-Sprint";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCC996191FAB56AE0000B18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cameron App First SprintTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHCI.Cameron-App-First-SprintTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cameron App First Sprint.app/Cameron App First Sprint";
+			};
+			name = Debug;
+		};
+		BCC9961A1FAB56AE0000B18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cameron App First SprintTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHCI.Cameron-App-First-SprintTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cameron App First Sprint.app/Cameron App First Sprint";
+			};
+			name = Release;
+		};
+		BCC9961C1FAB56AE0000B18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cameron App First SprintUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHCI.Cameron-App-First-SprintUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cameron App First Sprint";
+			};
+			name = Debug;
+		};
+		BCC9961D1FAB56AE0000B18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cameron App First SprintUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHCI.Cameron-App-First-SprintUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cameron App First Sprint";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCC995E81FAB56AE0000B18C /* Build configuration list for PBXProject "Cameron App First Sprint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC996131FAB56AE0000B18C /* Debug */,
+				BCC996141FAB56AE0000B18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC996151FAB56AE0000B18C /* Build configuration list for PBXNativeTarget "Cameron App First Sprint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC996161FAB56AE0000B18C /* Debug */,
+				BCC996171FAB56AE0000B18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC996181FAB56AE0000B18C /* Build configuration list for PBXNativeTarget "Cameron App First SprintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC996191FAB56AE0000B18C /* Debug */,
+				BCC9961A1FAB56AE0000B18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC9961B1FAB56AE0000B18C /* Build configuration list for PBXNativeTarget "Cameron App First SprintUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC9961C1FAB56AE0000B18C /* Debug */,
+				BCC9961D1FAB56AE0000B18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCC995E51FAB56AE0000B18C /* Project object */;
+}
