@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCB679A11FC5CFA80058E06B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB679A01FC5CFA80058E06B /* LoginViewController.swift */; };
 		BCC995F11FAB56AE0000B18C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC995F01FAB56AE0000B18C /* AppDelegate.swift */; };
-		BCC995F31FAB56AE0000B18C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC995F21FAB56AE0000B18C /* ViewController.swift */; };
+		BCC995F31FAB56AE0000B18C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC995F21FAB56AE0000B18C /* HomeViewController.swift */; };
 		BCC995F61FAB56AE0000B18C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC995F41FAB56AE0000B18C /* Main.storyboard */; };
 		BCC995F81FAB56AE0000B18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC995F71FAB56AE0000B18C /* Assets.xcassets */; };
 		BCC995FB1FAB56AE0000B18C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC995F91FAB56AE0000B18C /* LaunchScreen.storyboard */; };
 		BCC996061FAB56AE0000B18C /* Cameron_App_First_SprintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC996051FAB56AE0000B18C /* Cameron_App_First_SprintTests.swift */; };
 		BCC996111FAB56AE0000B18C /* Cameron_App_First_SprintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC996101FAB56AE0000B18C /* Cameron_App_First_SprintUITests.swift */; };
+		BCC9961F1FAB58AF0000B18C /* StudentCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9961E1FAB58AF0000B18C /* StudentCardViewController.swift */; };
+		BCC996211FAB58DB0000B18C /* AnnouncementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC996201FAB58DB0000B18C /* AnnouncementsViewController.swift */; };
+		BCC996231FAB58F70000B18C /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC996221FAB58F70000B18C /* ScheduleViewController.swift */; };
+		BCCEACCF1FBDE93A00566FB2 /* IDAutomationHC39M Free Version.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCCEACCE1FBDE93900566FB2 /* IDAutomationHC39M Free Version.ttf */; };
+		BCD2CDD61FC7574D00859ED3 /* LandscapeStudentCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD2CDD51FC7574D00859ED3 /* LandscapeStudentCardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BCB679A01FC5CFA80058E06B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BCC995ED1FAB56AE0000B18C /* Cameron App First Sprint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cameron App First Sprint.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC995F01FAB56AE0000B18C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCC995F21FAB56AE0000B18C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCC995F21FAB56AE0000B18C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BCC995F51FAB56AE0000B18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCC995F71FAB56AE0000B18C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCC995FA1FAB56AE0000B18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		BCC9960C1FAB56AE0000B18C /* Cameron App First SprintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cameron App First SprintUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC996101FAB56AE0000B18C /* Cameron_App_First_SprintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cameron_App_First_SprintUITests.swift; sourceTree = "<group>"; };
 		BCC996121FAB56AE0000B18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC9961E1FAB58AF0000B18C /* StudentCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCardViewController.swift; sourceTree = "<group>"; };
+		BCC996201FAB58DB0000B18C /* AnnouncementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsViewController.swift; sourceTree = "<group>"; };
+		BCC996221FAB58F70000B18C /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		BCCEACCE1FBDE93900566FB2 /* IDAutomationHC39M Free Version.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "IDAutomationHC39M Free Version.ttf"; path = "../IDAutomationHC39M Free Version.ttf"; sourceTree = "<group>"; };
+		BCD2CDD51FC7574D00859ED3 /* LandscapeStudentCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeStudentCardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +109,17 @@
 		BCC995EF1FAB56AE0000B18C /* Cameron App First Sprint */ = {
 			isa = PBXGroup;
 			children = (
+				BCC995F91FAB56AE0000B18C /* LaunchScreen.storyboard */,
 				BCC995F01FAB56AE0000B18C /* AppDelegate.swift */,
-				BCC995F21FAB56AE0000B18C /* ViewController.swift */,
+				BCB679A01FC5CFA80058E06B /* LoginViewController.swift */,
+				BCC995F21FAB56AE0000B18C /* HomeViewController.swift */,
+				BCC9961E1FAB58AF0000B18C /* StudentCardViewController.swift */,
+				BCC996201FAB58DB0000B18C /* AnnouncementsViewController.swift */,
+				BCC996221FAB58F70000B18C /* ScheduleViewController.swift */,
+				BCD2CDD51FC7574D00859ED3 /* LandscapeStudentCardViewController.swift */,
 				BCC995F41FAB56AE0000B18C /* Main.storyboard */,
 				BCC995F71FAB56AE0000B18C /* Assets.xcassets */,
-				BCC995F91FAB56AE0000B18C /* LaunchScreen.storyboard */,
+				BCCEACCE1FBDE93900566FB2 /* IDAutomationHC39M Free Version.ttf */,
 				BCC995FC1FAB56AE0000B18C /* Info.plist */,
 			);
 			path = "Cameron App First Sprint";
@@ -232,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCCEACCF1FBDE93A00566FB2 /* IDAutomationHC39M Free Version.ttf in Resources */,
 				BCC995FB1FAB56AE0000B18C /* LaunchScreen.storyboard in Resources */,
 				BCC995F81FAB56AE0000B18C /* Assets.xcassets in Resources */,
 				BCC995F61FAB56AE0000B18C /* Main.storyboard in Resources */,
@@ -259,8 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCC995F31FAB56AE0000B18C /* ViewController.swift in Sources */,
+				BCB679A11FC5CFA80058E06B /* LoginViewController.swift in Sources */,
+				BCC996231FAB58F70000B18C /* ScheduleViewController.swift in Sources */,
+				BCD2CDD61FC7574D00859ED3 /* LandscapeStudentCardViewController.swift in Sources */,
+				BCC995F31FAB56AE0000B18C /* HomeViewController.swift in Sources */,
+				BCC9961F1FAB58AF0000B18C /* StudentCardViewController.swift in Sources */,
 				BCC995F11FAB56AE0000B18C /* AppDelegate.swift in Sources */,
+				BCC996211FAB58DB0000B18C /* AnnouncementsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +327,7 @@
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		BCC995F91FAB56AE0000B18C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -429,7 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Cameron App First Sprint/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "CHCI.Cameron-App-First-Sprint";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHCI.Cameron-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,7 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Cameron App First Sprint/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "CHCI.Cameron-App-First-Sprint";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHCI.Cameron-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
