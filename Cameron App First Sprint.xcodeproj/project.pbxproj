@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC6E22501FCDB2460050F8B2 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6E224E1FCDB2460050F8B2 /* TitleViewController.swift */; };
 		BCB679A11FC5CFA80058E06B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB679A01FC5CFA80058E06B /* LoginViewController.swift */; };
 		BCC995F11FAB56AE0000B18C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC995F01FAB56AE0000B18C /* AppDelegate.swift */; };
 		BCC995F31FAB56AE0000B18C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC995F21FAB56AE0000B18C /* HomeViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC6E224E1FCDB2460050F8B2 /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
 		BCB679A01FC5CFA80058E06B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BCC995ED1FAB56AE0000B18C /* Cameron App First Sprint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cameron App First Sprint.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC995F01FAB56AE0000B18C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			children = (
 				BCC995F91FAB56AE0000B18C /* LaunchScreen.storyboard */,
 				BCC995F01FAB56AE0000B18C /* AppDelegate.swift */,
+				BC6E224E1FCDB2460050F8B2 /* TitleViewController.swift */,
 				BCB679A01FC5CFA80058E06B /* LoginViewController.swift */,
 				BCC995F21FAB56AE0000B18C /* HomeViewController.swift */,
 				BCC9961E1FAB58AF0000B18C /* StudentCardViewController.swift */,
@@ -283,6 +286,7 @@
 				BCD2CDD61FC7574D00859ED3 /* LandscapeStudentCardViewController.swift in Sources */,
 				BCC995F31FAB56AE0000B18C /* HomeViewController.swift in Sources */,
 				BCC9961F1FAB58AF0000B18C /* StudentCardViewController.swift in Sources */,
+				BC6E22501FCDB2460050F8B2 /* TitleViewController.swift in Sources */,
 				BCC995F11FAB56AE0000B18C /* AppDelegate.swift in Sources */,
 				BCC996211FAB58DB0000B18C /* AnnouncementsViewController.swift in Sources */,
 			);

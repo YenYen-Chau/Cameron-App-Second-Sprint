@@ -1,14 +1,14 @@
 //
-//  LoginViewController.swift
+//  TitleViewController.swift
 //  Cameron App First Sprint
 //
-//  Created by CS Student on 2017-11-22.
+//  Created by CS Student on 2017-11-28.
 //  Copyright © 2017 CS Student. All rights reserved.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class TitleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +20,7 @@ class LoginViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     //lock portrait
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         if UIDevice.current.userInterfaceIdiom == .phone {
@@ -29,7 +29,7 @@ class LoginViewController: UIViewController {
             return .portrait
         }
     }
-    
+
     /*
     // MARK: - Navigation
 
